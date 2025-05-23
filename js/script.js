@@ -16,6 +16,6 @@ document.getElementById('formContato').addEventListener('submit', function (e) {
 
     this.reset();
     const resposta = document.getElementById('resposta');
-    resposta.textContent = Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.;
+    resposta.textContent = `Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`;
     resposta.style.color = 'green';
 });
